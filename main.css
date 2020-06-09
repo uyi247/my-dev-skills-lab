@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+}
+
+.header {
+  width: 400px;
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+  background-color: #93c47e;
+  text-align: center;
+}
+
+.skills-list {
+  color: #f6ab42;
+  list-style: none;
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+.remove {
+  background-color: #e16666;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 25px;
+  margin: 0 10px 0 0;
+}
+.remove:hover {
+  background-color: #db4343;
+  cursor: pointer;
+}
+
+#skillsInput {
+  width: 300px;
+  height: 32px;
+  margin: 0 15px 0 0;
+  border: 4px solid #93c47e;
+  font-size: 13px;
+}
+
+.find {
+  text-align: center;
+}
+
+#newSkillBtn {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border: 4px solid #93c47e;
+  color: #93c47e;
+  font-size: 13px;
+}
+#newSkillBtn:hover {
+  cursor: pointer;
+}
+li {
+  margin: 8px;
+}
